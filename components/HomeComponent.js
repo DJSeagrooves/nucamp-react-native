@@ -40,7 +40,7 @@ class Home extends Component {
         return (
             <ScrollView>
                 <RenderItem
-                    item={this.state.campsites.filter(campsite => campsite.featured)[0]} />
+                item={this.state.campsites.filter(campsite => campsite.featured)[0]} />
                 <RenderItem
                 item={this.state.promotions.filter(promotion => promotion.featured)[0]} />
                 <RenderItem
